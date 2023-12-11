@@ -1,4 +1,5 @@
 import aboutMeImg from '../../assets/heroImg.jpeg'
+import { TypeAnimation } from 'react-type-animation';
 
 const AboutMe = () => {
     return (
@@ -20,6 +21,25 @@ const AboutMe = () => {
                 </div>
 
                 <div className='lg:w-[60%]'>
+                    <h2 className='text-white text-2xl lg:text-2xl my-3 font-semibold'>
+                        I am, <br />
+                        <TypeAnimation className='text-[#854CE6] font-semibold'
+                            sequence={[
+                                'Specialized in Front-End Technologies',
+                                1000,
+                                'Comfortable With backend',
+                                1000,
+                                'Enthusiastic Learner',
+                                1000,
+                                'Aspire To Be a Leader',
+                                1000
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            style={{ fontSize: 'base', display: 'inline-block' }}
+                            repeat={Infinity}
+                        />
+                    </h2>
                     <p className='text-white'>As I Studied Computer Science & Engineering, I am Learning MERN stack Development for implementing a web-based application. I have knowledge and experience in JavaScript and Collection Framework. I have a comprehensive understanding of the Software Development Life Cycle. <br /> <br />
 
                         I have experience in HTML5, CSS3, Github, ES, API, JavaScript, JSON, Tailwind, Bootstrap, React, React Router, Firebase, NodeJS, ExpressJS MongoDB with responsive web applications using React JS libraries.
