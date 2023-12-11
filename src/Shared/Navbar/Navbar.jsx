@@ -35,7 +35,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <button className="text-white border-2 border-purple-600 font-bold py-2 px-3 rounded-xl hover:bg-[#854CE6] ">Github Profile</button>
+                <a href="https://github.com/naymurabir" target="_blank" rel="noopener noreferrer">
+                    <button className="text-white border-2 border-purple-600 font-bold py-2 px-3 rounded-xl hover:bg-[#854CE6] ">Github Profile</button>
+                </a>
             </div>
         </div>
     );

@@ -16,7 +16,7 @@ const Education = () => {
                     <img className='w-[350px] md:w-[400px] lg:w-[500px]' src={graduatedHat} alt="" />
                 </div>
                 <div className='lg:w-[50%]'>
-                    <h2 className='text-3xl font-bold text-white text-center'>Education</h2>
+                    <h2 className='text-3xl font-bold text-[#854CE6] text-center '>Education</h2>
                     <h3 className='text-xl md:text-2xl font-bold text-white text-center mt-2'>Basic Qualification and Certifications</h3>
                     <p className='text-sm md:text-base font-normal text-white text-center mt-2'>I actively participate in tech-related activities. Below are some of my major certifications.</p>
                 </div>

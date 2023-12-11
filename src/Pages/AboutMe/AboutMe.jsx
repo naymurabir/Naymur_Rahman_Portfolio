@@ -45,7 +45,9 @@ const AboutMe = () => {
                         I have experience in HTML5, CSS3, Github, ES, API, JavaScript, JSON, Tailwind, Bootstrap, React, React Router, Firebase, NodeJS, ExpressJS MongoDB with responsive web applications using React JS libraries.
                         I am a self-motivated individual with good communication skills and leadership qualities.</p>
 
-                    <button className="text-white border-2 border-purple-600 font-bold py-2 px-3 rounded-xl hover:bg-[#854CE6] mt-4">LinkedIn</button>
+                    <a href="https://www.linkedin.com/in/naymur-rahman-abir-4437551b6/" target="_blank" rel="noopener noreferrer">
+                        <button className="text-white border-2 border-purple-600 font-bold py-2 px-3 rounded-xl hover:bg-[#854CE6] mt-4">LinkedIn</button>
+                    </a>
                 </div>
             </div>
         </div>
