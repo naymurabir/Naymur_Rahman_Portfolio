@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const AboutMe = () => {
     return (
-        <div className="mt-5 lg:mt-20 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
+        <div className="mt-5 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
             <div className='text-white text-center font-semibold mb-10'>
                 <h2 className='text-3xl'>About Me</h2>
                 <p className='text-[#854CE6]'>Who i am</p>
