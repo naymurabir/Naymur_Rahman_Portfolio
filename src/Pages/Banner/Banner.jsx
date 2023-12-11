@@ -4,10 +4,10 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Banner = () => {
     return (
-        <div className="mt-24 md:mt-40 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
+        <div className="py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
             <div className='flex flex-col lg:flex-row items-center gap-5'>
                 <div className='lg:w-[50%]'>
-                    <h1 className="text-white text-4xl lg:text-5xl font-bold">Hi,I am <br />
+                    <h1 className="text-white text-4xl lg:text-5xl font-semibold  space-y-3">Hi, I am <br />
                         Naymur Rahman Abir</h1>
 
                     <h2 className='text-white text-2xl lg:text-3xl my-3 font-semibold'>

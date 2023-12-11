@@ -27,7 +27,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl text-white">Portfolio</a>
+                <a className="btn btn-ghost text-2xl text-white"> Naymur<span className="text-[#854CE6]">Rahman</span> </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
