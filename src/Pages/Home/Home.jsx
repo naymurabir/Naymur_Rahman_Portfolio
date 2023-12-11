@@ -10,7 +10,6 @@ const Home = () => {
             <AboutMe></AboutMe>
             <MySkills></MySkills>
             <WhatIdo></WhatIdo>
-
         </div>
     );
 };
