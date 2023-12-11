@@ -24,7 +24,7 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-5'>
 
                 {/* Project-1 */}
-                <div className="card card-compact bg-base-100 shadow-xl mt-16 rounded">
+                <div className="card card-compact bg-base-100 shadow-xl mt-16 rounded hover:transform hover:scale-105 transition-transform duration-300">
                     <div className='bg-[#854CE6] rounded px-3 py-2'>
                         <img className='h-[200px] w-full' src={project1} alt="Projects" />
                     </div>
@@ -51,7 +51,7 @@ const Projects = () => {
                 </div>
 
                 {/* Project-2 */}
-                <div className="card card-compact bg-base-100 shadow-xl mt-16 rounded">
+                <div className="card card-compact bg-base-100 shadow-xl mt-16 rounded hover:transform hover:scale-105 transition-transform duration-300">
                     <div className='bg-[#854CE6] rounded px-3 py-2'>
                         <img className='h-[200px] w-full' src={project2} alt="Projects" />
                     </div>
@@ -79,7 +79,7 @@ const Projects = () => {
                 </div>
 
                 {/* Project-3 */}
-                <div className="card card-compact bg-base-100 shadow-xl mt-16 rounded">
+                <div className="card card-compact bg-base-100 shadow-xl mt-16 rounded hover:transform hover:scale-105 transition-transform duration-300">
                     <div className='bg-[#854CE6] rounded px-3 py-2'>
                         <img className='h-[200px] w-full' src={project3} alt="Projects" />
                     </div>

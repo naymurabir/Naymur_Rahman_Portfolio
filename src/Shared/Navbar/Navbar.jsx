@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navLinks = <>
-        <NavLink to="/" className="text-lg font-semibold mr-4"> Home </NavLink>
+        <NavLink to="/" className="text-base font-semibold mr-4"> Home </NavLink>
 
-        <NavLink to="/education" className="text-lg font-semibold mr-4"> Education </NavLink>
+        <NavLink to="/education" className="text-base font-semibold mr-4"> Education </NavLink>
 
-        <NavLink to="/experience" className="text-lg font-semibold mr-4"> Experience </NavLink>
+        <NavLink to="/experience" className="text-base font-semibold mr-4"> Experience </NavLink>
 
-        <NavLink to="/projects" className="text-lg font-semibold mr-4"> Projects </NavLink>
+        <NavLink to="/projects" className="text-base font-semibold mr-4"> Projects </NavLink>
 
-        <NavLink to="/contact" className="text-lg font-semibold mr-4"> Contact </NavLink>
+        <NavLink to="/contact" className="text-base font-semibold mr-4"> Contact </NavLink>
 
-        <NavLink to="/blog" className="text-lg font-semibold"> Blog </NavLink>
+        <NavLink to="/blog" className="text-base font-semibold"> Blog </NavLink>
     </>
 
     return (
@@ -27,7 +27,7 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl text-white hidden md:block"> Naymur <span className="text-[#854CE6]">Rahman</span> </a>
+                <a className="text-2xl text-white hidden md:block"> Naymur <span className="text-[#854CE6]">Abir</span> </a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
