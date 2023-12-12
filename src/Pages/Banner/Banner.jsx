@@ -2,9 +2,8 @@ import heroImage from '../../assets/heroImage.jpg'
 import { TypeAnimation } from 'react-type-animation';
 import resume from '../../assets/Resume/Naymur Rahman Abir.pdf'
 
+
 const Banner = () => {
-
-
     return (
         <div className="py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
             <div className='flex flex-col lg:flex-row items-center gap-5'>

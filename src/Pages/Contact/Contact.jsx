@@ -1,8 +1,45 @@
 import { IoPersonSharp, IoLocationSharp } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
+import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
 
 
 const Contact = () => {
+
+    const handleContactMe = (e) => {
+        e.preventDefault()
+        const userMessage = e.target.message.value
+        const userName = e.target.name.value
+        const userEmail = e.target.email.value
+        const templateParams = {
+            from_name: userName,
+            from_email: userEmail,
+            message: userMessage,
+            name: userName,
+            email: userEmail
+        }
+        console.log(templateParams);
+
+        // Email JS------------------------------------
+        emailjs.send('service_11kk9iq', 'template_k8ov40j', templateParams, 'OODnN_JBcfByZ2M0F')
+            .then((response) => {
+                console.log('SUCCESS!', response.status, response.text);
+            }, (err) => {
+                console.log('FAILED...', err);
+            });
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Your email is sent. I will look forward to connect with you soon!',
+            showConfirmButton: false,
+            background: '#1C1C27',
+            heightAuto: '100px',
+            color: 'white',
+            timer: 2000
+        })
+
+    }
+
     return (
         <div className="py-20 lg:py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
 
@@ -49,36 +86,29 @@ const Contact = () => {
                 </div>
 
                 <div className="lg:w-[50%]">
-                    <form className="border border-[#854CE6] px-5 py-5 rounded">
+                    <form onSubmit={handleContactMe} className="border border-[#854CE6] px-5 py-5 rounded">
                         <label className="form-control w-full max-w-xl">
                             <div className="label">
                                 <span className="label-text text-white font-semibold">Name</span>
                             </div>
-                            <input type="text" placeholder="Name..." className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0" />
+                            <input name="name" type="text" placeholder="Name..." className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0" />
                         </label>
 
                         <label className="form-control w-full max-w-xl">
                             <div className="label">
                                 <span className="label-text text-white font-semibold">Email</span>
                             </div>
-                            <input type="email" placeholder="Email..." className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0" />
-                        </label>
-
-                        <label className="form-control w-full max-w-xl">
-                            <div className="label">
-                                <span className="label-text text-white font-semibold">Phone</span>
-                            </div>
-                            <input type="text" placeholder="Phone..." className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0" />
+                            <input name="email" type="email" placeholder="Email..." className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0" />
                         </label>
 
                         <label className="form-control w-full max-w-xl">
                             <div className="label">
                                 <span className="label-text text-white font-semibold">Message</span>
                             </div>
-                            <textarea className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0 h-[100px]" name="" id="" cols="30" rows="10"></textarea>
+                            <textarea className="input text-white input-bordered w-full input-md max-w-xl bg-transparent input-primary focus:outline-0 h-[100px]" name="message" id="" cols="30" rows="10"></textarea>
                         </label>
 
-                        <button className="text-white border border-[#4A00FF] font-semibold py-2 px-3 rounded-xl hover:bg-[#4A00FF] w-full md:w-1/2 lg:w-full mt-4">Send Message</button>
+                        <button type="submit" className="text-white border border-[#4A00FF] font-semibold py-2 px-3 rounded-xl hover:bg-[#4A00FF] w-full md:w-1/2 lg:w-full mt-4">Send Message</button>
                     </form>
                 </div>
 
