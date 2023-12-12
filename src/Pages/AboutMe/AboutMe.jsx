@@ -40,7 +40,7 @@ const AboutMe = () => {
                             repeat={Infinity}
                         />
                     </h2>
-                    <p className='text-white'>As I Studied Computer Science & Engineering, I am Learning MERN stack Development for implementing a web-based application. I have knowledge and experience in JavaScript and Collection Framework. I have a comprehensive understanding of the Software Development Life Cycle. <br /> <br />
+                    <p className='text-white'>As I Studied Computer Science & Engineering, I have learned MERN stack Development for implementing a web-based application. I have knowledge and experience in JavaScript and Collection Framework. I have a comprehensive understanding of the Software Development Life Cycle. <br /> <br />
 
                         I have experience in HTML5, CSS3, Github, ES, API, JavaScript, JSON, Tailwind, Bootstrap, React, React Router, Firebase, NodeJS, ExpressJS MongoDB with responsive web applications using React JS libraries.
                         I am a self-motivated individual with good communication skills and leadership qualities.</p>
