@@ -6,10 +6,17 @@ import prograamingHeroLogo from '../../assets/prograamingHeroLogo.png'
 import hultPrizeLogo from '../../assets/hultPrize.jpeg'
 import igpLogo from '../../assets/igpLogo.png'
 import { FcApproval } from "react-icons/fc";
+import { Helmet } from 'react-helmet-async';
 
 const Education = () => {
     return (
         <div className="py-20 lg:py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
+
+            <Helmet>
+                <title>
+                    Education
+                </title>
+            </Helmet>
 
             <div className='flex flex-col lg:flex-row items-center'>
                 <div className='lg:w-[50%]'>

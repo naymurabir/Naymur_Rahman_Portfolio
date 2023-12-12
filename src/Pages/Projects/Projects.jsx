@@ -4,11 +4,18 @@ import { MdLiveTv } from "react-icons/md";
 import project1 from '../../assets/Projects Images/Assignment-12.png'
 import project2 from '../../assets/Projects Images/Assignment-11.png'
 import project3 from '../../assets/Projects Images/Assignment-10.png'
+import { Helmet } from 'react-helmet-async';
 
 
 const Projects = () => {
     return (
         <div className="py-20 lg:py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
+
+            <Helmet>
+                <title>
+                    Projects
+                </title>
+            </Helmet>
 
             <div className='flex flex-col lg:flex-row items-center'>
                 <div className='lg:w-[50%]'>

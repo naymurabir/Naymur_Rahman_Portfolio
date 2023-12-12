@@ -2,6 +2,7 @@ import { IoPersonSharp, IoLocationSharp } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
+import { Helmet } from 'react-helmet-async';
 
 
 const Contact = () => {
@@ -42,7 +43,11 @@ const Contact = () => {
 
     return (
         <div className="py-20 lg:py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
-
+            <Helmet>
+                <title>
+                    Contact Me
+                </title>
+            </Helmet>
             <div className='text-white text-center font-semibold mb-10'>
                 <h2 className='text-2xl md:text-3xl mt-5 lg:mt-0'>Contact Me</h2>
                 <div className="mt-2">
