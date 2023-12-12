@@ -1,6 +1,6 @@
 import heroImage from '../../assets/heroImage.jpg'
 import { TypeAnimation } from 'react-type-animation';
-import resume from '../../assets/Resume/Naymur Rahman Abir.pdf'
+import resume from '../../assets/Resume/Naymur_Rahman_Abir.pdf'
 
 
 const Banner = () => {
