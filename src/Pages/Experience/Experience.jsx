@@ -59,7 +59,7 @@ const Experience = () => {
             </div>
 
             {/* ------------ */}
-            <div className='flex flex-col lg:flex-row mt-10 lg:mt-28 gap-10 items-center'>
+            <div className='flex flex-col lg:flex-row mt-10 lg:mt-18 gap-10 items-center'>
                 <div>
                     <img className='w-40 md:w-44 lg:w-60' src={prograamingHeroLogo} alt="" />
                 </div>
