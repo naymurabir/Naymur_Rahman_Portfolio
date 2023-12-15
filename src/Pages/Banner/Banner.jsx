@@ -1,11 +1,12 @@
-import heroImage from '../../assets/heroImage.jpg'
+import heroImage from '../../assets/Naymur_Rahman_Abir.jpg'
 import { TypeAnimation } from 'react-type-animation';
 // import resume from '../../assets/Resume/Naymur_Rahman_Abir.pdf'
 
-// const resumePDF = "/http://localhost:5173/Naymur_Rahman_Abir.pdf"
+
 
 const Banner = () => {
     return (
+
         <div className="py-32 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
             <div className='flex flex-col lg:flex-row items-center gap-5'>
                 <div className='lg:w-[50%]'>
@@ -31,6 +32,7 @@ const Banner = () => {
                             repeat={Infinity}
                         />
                     </h2>
+
                     <h3 className="text-white mt-3 font-semibold leading-relaxed">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</h3>
 
                     <div className='md:flex gap-2'>

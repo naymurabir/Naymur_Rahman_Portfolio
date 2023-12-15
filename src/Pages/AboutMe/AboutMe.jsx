@@ -1,7 +1,8 @@
-import aboutMeImg from '../../assets/heroImg.jpeg'
+import aboutMeImg from '../../assets/heroImage.jpg'
 import { TypeAnimation } from 'react-type-animation';
 
 const AboutMe = () => {
+
     return (
         <div className="mt-5 max-w-screen-xl mx-auto px-5 md:px-10 lg:px-20">
             <div className='text-white text-center font-semibold mb-10'>
