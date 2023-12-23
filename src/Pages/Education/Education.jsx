@@ -131,7 +131,7 @@ const Education = () => {
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
 
-                <a href="">
+                <a href="https://drive.google.com/file/d/1P5NBB_bf-Y9qJ9YBlz3Jl51jtT1avG16/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                     <div className="w-full max-w-xs overflow-hidden bg-white rounded-lg shadow-lg text-black mt-12 hover:transform hover:scale-105 transition-transform duration-300">
                         <img
                             className="object-cover w-full h-48"
