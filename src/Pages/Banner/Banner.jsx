@@ -36,11 +36,11 @@ const Banner = () => {
                     <h3 className="text-white mt-3 font-semibold leading-relaxed">I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.</h3>
 
                     <div className='md:flex gap-2'>
-                        <a href="https://drive.google.com/uc?export=download&id=1pX585m3JLrb80BWHoNVE4WgxSE2QBQHW" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/uc?export=download&id=1BZHvrxy398TnZ5acLYQRM8T2bGz9UcNu" target="_blank" rel="noopener noreferrer">
                             <button className="text-white border-2 border-purple-600 font-bold py-1 md:py-2 px-2 md:px-3 rounded-xl text-sm md:text-base hover:bg-[#854CE6] w-full mt-4 ">Download Resume</button>
                         </a>
 
-                        <a href="https://drive.google.com/file/d/1pX585m3JLrb80BWHoNVE4WgxSE2QBQHW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <a href="https://drive.google.com/file/d/1BZHvrxy398TnZ5acLYQRM8T2bGz9UcNu/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                             <button className="text-white border-2 border-purple-600 font-bold py-1 md:py-2 px-2 md:px-3 rounded-xl text-sm md:text-base hover:bg-[#854CE6] w-full mt-4 md:ml-2">Check Resume</button>
                         </a>
                     </div>
